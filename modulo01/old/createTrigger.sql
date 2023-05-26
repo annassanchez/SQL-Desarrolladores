@@ -1,0 +1,9 @@
+CREATE TRIGGER tServerCheck ON ALL SERVER FOR CREATE_TABLE AS PRINT 'TABLE SUCCESFULLY CREATED'
+GO
+
+CREATE TABLE dbo.FooData 
+(
+ IDFooData int
+ , FooDataValue varchar(10)
+)
+GO

@@ -1,0 +1,1 @@
+ALTER TABLE dbo.Customers ADD CustomerStatusID tinyint NULL
